@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <data noupdate="0">
+        <menuitem id="estate_propert_menu_root" name="Estate Property" >
+            <menuitem id="estate_property_settings_menu" name="Settings" groups="estate_group_manager">
+                <menuitem id="estate_property_types_menu" action="estate_property_types_action" name="Property Types"/>
+                <menuitem id="estate_property_tags_menu" action="estate_property_tags_action" name="Property Tags"/>
+            </menuitem>
+            <menuitem id="estate_property_first_level_menu" name="First Level">
+                <menuitem id="estate_property_menu" action="estate_property_action"/>
+            </menuitem>
+        </menuitem>
+    </data>
+</odoo>
